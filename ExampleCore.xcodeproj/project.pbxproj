@@ -63,6 +63,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9E1F100620E651E900E001BC /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9E1F100020E64F3600E001BC /* NavigationBarView.swift */,
+				9E1F100220E6505E00E001BC /* KTButton.swift */,
+				9E1F100420E6506500E001BC /* KTLabel.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
 		9E3E760B20E628DF0006F809 = {
 			isa = PBXGroup;
 			children = (
@@ -90,9 +100,7 @@
 				9E3E761E20E628E10006F809 /* Assets.xcassets */,
 				9E3E762020E628E10006F809 /* LaunchScreen.storyboard */,
 				9E3E762320E628E10006F809 /* Info.plist */,
-				9E1F100020E64F3600E001BC /* NavigationBarView.swift */,
-				9E1F100220E6505E00E001BC /* KTButton.swift */,
-				9E1F100420E6506500E001BC /* KTLabel.swift */,
+				9E1F100620E651E900E001BC /* CustomClasses */,
 			);
 			path = ExampleCore;
 			sourceTree = "<group>";
