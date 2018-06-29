@@ -6,17 +6,18 @@ Pod::Spec.new do |s|
   s.summary      = ""
 
   s.description  = <<-DESC
+  Here is some description for Core Example
                    DESC
 
   s.homepage     = "https://github.com/DSanzh/ExampleCore"
 
-  s.license      = "MIT (example)"
+  s.license      = {:type => 'MIT'}
 
   s.author       = { "Sanzh" => "dauylov.sanzhar@gmail.com" }
 
   s.summary      = 'Core logic of example'
 
-  s.social_media_url   = "https://www.linkedin.com/in/sanzhar-dauylov/"
+  s.social_media_url   = "https://twitter.com/dauylov_sanzhar/"
   
   s.platform     = :ios, "10.0"
 
