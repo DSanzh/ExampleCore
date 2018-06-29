@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		549E7E2E9CFFC9EACE9C0720 /* Pods_ExampleCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B6E3BD2099AEA44F6A6965 /* Pods_ExampleCore.framework */; };
-		9E1F100120E64F3600E001BC /* KTCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F100020E64F3600E001BC /* KTCustomView.swift */; };
+		9E1F100120E64F3600E001BC /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F100020E64F3600E001BC /* NavigationBarView.swift */; };
+		9E1F100320E6505E00E001BC /* KTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F100220E6505E00E001BC /* KTButton.swift */; };
+		9E1F100520E6506500E001BC /* KTLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F100420E6506500E001BC /* KTLabel.swift */; };
 		9E3E761820E628E00006F809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E761720E628E00006F809 /* AppDelegate.swift */; };
 		9E3E761A20E628E00006F809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3E761920E628E00006F809 /* ViewController.swift */; };
 		9E3E761D20E628E00006F809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3E761B20E628E00006F809 /* Main.storyboard */; };
@@ -20,7 +22,9 @@
 		60B6E3BD2099AEA44F6A6965 /* Pods_ExampleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E765641413629F4F3E380A5 /* Pods-ExampleCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleCore/Pods-ExampleCore.debug.xcconfig"; sourceTree = "<group>"; };
 		9047A266290D3E35DF654C3A /* Pods-ExampleCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleCore/Pods-ExampleCore.release.xcconfig"; sourceTree = "<group>"; };
-		9E1F100020E64F3600E001BC /* KTCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTCustomView.swift; sourceTree = "<group>"; };
+		9E1F100020E64F3600E001BC /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		9E1F100220E6505E00E001BC /* KTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTButton.swift; sourceTree = "<group>"; };
+		9E1F100420E6506500E001BC /* KTLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTLabel.swift; sourceTree = "<group>"; };
 		9E3E761420E628E00006F809 /* ExampleCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3E761720E628E00006F809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E3E761920E628E00006F809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +90,9 @@
 				9E3E761E20E628E10006F809 /* Assets.xcassets */,
 				9E3E762020E628E10006F809 /* LaunchScreen.storyboard */,
 				9E3E762320E628E10006F809 /* Info.plist */,
-				9E1F100020E64F3600E001BC /* KTCustomView.swift */,
+				9E1F100020E64F3600E001BC /* NavigationBarView.swift */,
+				9E1F100220E6505E00E001BC /* KTButton.swift */,
+				9E1F100420E6506500E001BC /* KTLabel.swift */,
 			);
 			path = ExampleCore;
 			sourceTree = "<group>";
@@ -203,9 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1F100320E6505E00E001BC /* KTButton.swift in Sources */,
 				9E3E761A20E628E00006F809 /* ViewController.swift in Sources */,
-				9E1F100120E64F3600E001BC /* KTCustomView.swift in Sources */,
+				9E1F100120E64F3600E001BC /* NavigationBarView.swift in Sources */,
 				9E3E761820E628E00006F809 /* AppDelegate.swift in Sources */,
+				9E1F100520E6506500E001BC /* KTLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
