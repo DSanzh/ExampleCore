@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/DSanzh/ExampleCore"
 
-  s.license      = {:type => 'MIT'}
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
   s.author       = { "Sanzh" => "dauylov.sanzhar@gmail.com" }
 
@@ -23,6 +23,12 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/DSanzh/ExampleCore.git", :tag => '0.0.1' }
 
-  s.source_files = "./**/*.{h,m}"
-  s.framework	 = "EasyPeasy"
+  # s.source_files = ''
+
+  s.ios.deployment_target = '10.0'
+  
+  s.swift_version = '4.1'
+
+  s.dependency "EasyPeasy"
+
 end
