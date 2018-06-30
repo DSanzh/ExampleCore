@@ -9,7 +9,7 @@
 import UIKit
 import EasyPeasy
 
-class NavigationBarView: UIView {
+public class NavigationBarView: UIView {
     lazy var titleLabel = KTLabel()
     
     lazy var backButton = KTButton(withImage: UIImage())//.then{
@@ -24,14 +24,14 @@ class NavigationBarView: UIView {
     }
 
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) in NavigationBarView has not been implemented")
     }
 }
 
-extension NavigationBarView {
+public extension NavigationBarView {
 
-    private func setupView(_ title: String) {
+    public func setupView(_ title: String) {
         backgroundColor = .white
         [backButton, titleLabel, rightButton].forEach{
             addSubview($0)
@@ -39,7 +39,7 @@ extension NavigationBarView {
         titleLabel.text = title
     }
 
-    private func setupConstraints() {
+    public func setupConstraints() {
         titleLabel.easy.layout([
             Bottom(12),
             CenterX()
@@ -58,7 +58,7 @@ extension NavigationBarView {
             ])
     }
 
-    @objc private func returnViewController() {
+    @objc public func returnViewController() {
         print("returnViewController")
         if let viewController = self.window?.rootViewController {
             viewController.navigationController?.popViewController(animated: true)

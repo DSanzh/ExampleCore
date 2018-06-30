@@ -25,6 +25,8 @@
 		9E1F100020E64F3600E001BC /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		9E1F100220E6505E00E001BC /* KTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTButton.swift; sourceTree = "<group>"; };
 		9E1F100420E6506500E001BC /* KTLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTLabel.swift; sourceTree = "<group>"; };
+		9E1F101C20E656D300E001BC /* ExampleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleCore.h; sourceTree = "<group>"; };
+		9E1F101D20E6580E00E001BC /* ExampleCore2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleCore2.h; sourceTree = "<group>"; };
 		9E3E761420E628E00006F809 /* ExampleCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3E761720E628E00006F809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E3E761920E628E00006F809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,9 +68,11 @@
 		9E1F100620E651E900E001BC /* CustomClasses */ = {
 			isa = PBXGroup;
 			children = (
+				9E1F101C20E656D300E001BC /* ExampleCore.h */,
 				9E1F100020E64F3600E001BC /* NavigationBarView.swift */,
 				9E1F100220E6505E00E001BC /* KTButton.swift */,
 				9E1F100420E6506500E001BC /* KTLabel.swift */,
+				9E1F101D20E6580E00E001BC /* ExampleCore2.h */,
 			);
 			path = CustomClasses;
 			sourceTree = "<group>";
